@@ -1,0 +1,43 @@
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.cardTitle {
+  color: #3498db;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.usageBar {
+  height: 20px;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.usageIndicator {
+  height: 100%;
+  background-color: #3498db;
+  transition: width 0.5s ease;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.statLabel {
+  font-weight: 600;
+}
+
